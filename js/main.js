@@ -208,7 +208,7 @@ function contactFormSetup() {
         if( required === 0 ) {
             $.ajax({
                 type: 'POST',
-                url: 'mail.php',
+                url: 'https://getform.io/f/05249b69-3c83-4a21-a242-ca9a6f456f3b',
                 data: {
                     cf_name: name,
                     cf_email: email,
